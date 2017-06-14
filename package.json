@@ -1,0 +1,33 @@
+{
+	"name": "sketch-alpha-window",
+	"version": "1.0.0",
+	"description": "A plugin to quickly change Sketch’s window opacity",
+	"main": "plugin.sketchplugin",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "skpm build",
+		"publish": "skpm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bomberstudios/sketch-alpha-window.git"
+	},
+	"keywords": [
+		"sketch",
+		"sketchapp",
+		"sketch-plugin"
+	],
+	"author": "Ale Muñoz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bomberstudios/sketch-alpha-window/issues"
+	},
+	"homepage": "https://github.com/bomberstudios/sketch-alpha-window#readme",
+	"engines": {
+		"sketch": ">=3.0"
+	},
+	"manifest": "src/manifest.json",
+	"devDependencies": {
+		"skpm": "^0.9.10"
+	}
+}

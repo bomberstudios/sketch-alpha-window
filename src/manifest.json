@@ -1,0 +1,23 @@
+{
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+        {
+            "name": "Set Opacity to 50%",
+            "identifier": "set-opacity-50",
+            "script": "./set-opacity.js"
+        },
+        {
+            "name": "Reset Opacity",
+            "identifier": "set-opacity-100",
+            "script": "./reset-opacity.js"
+        }
+	],
+	"menu": {
+		"title": "Alpha Window",
+		"items": [
+			"set-opacity-50",
+			"set-opacity-100"
+		]
+	}
+}
