@@ -1,4 +1,6 @@
 {
+    "name": "Alpha Window",
+    "author": "Ale Muñoz",
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
 	"commands": [
